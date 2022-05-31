@@ -47,6 +47,7 @@ class Global {
             "polygon" to Chain.MATIC,
             "matic" to Chain.MATIC,
             "etc" to Chain.ETHEREUM_CLASSIC,
+            "bsc" to Chain.BSC,
             "morden" to Chain.TESTNET_MORDEN,
             "kovan" to Chain.TESTNET_KOVAN,
             "kovan-testnet" to Chain.TESTNET_KOVAN,

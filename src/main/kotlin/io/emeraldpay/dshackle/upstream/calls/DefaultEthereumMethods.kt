@@ -128,6 +128,9 @@ class DefaultEthereumMethods(
                     Chain.MATIC == chain -> {
                         "\"137\""
                     }
+                    Chain.BSC == chain -> {
+                        "\"56\""
+                    }
                     Chain.TESTNET_MORDEN == chain -> {
                         "\"2\""
                     }
@@ -153,6 +156,9 @@ class DefaultEthereumMethods(
                     }
                     Chain.MATIC == chain -> {
                         "\"0x89\""
+                    }
+                    Chain.BSC == chain -> {
+                        "\"0x38\""
                     }
                     Chain.TESTNET_ROPSTEN == chain -> {
                         "\"0x3\""
